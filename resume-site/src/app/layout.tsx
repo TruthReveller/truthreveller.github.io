@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Mark Bradley — Full‑Stack Developer & Technical Co‑founder",
-  description: "Resume and portfolio of Mark Bradley, Full-Stack Developer and Technical Co-founder with 15+ years of experience",
+  title: "Paul Bradley — Full‑Stack Developer & Technical Co‑founder",
+  description: "Resume and portfolio of Paul Bradley, Full-Stack Developer and Technical Co-founder with 15+ years of experience",
 };
 
 export default function RootLayout({

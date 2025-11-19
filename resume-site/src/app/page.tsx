@@ -50,7 +50,7 @@ export default function Home() {
                 <div>Residence: {data.personalInfo.contact['residence visa']}</div>
               )}
               <a href={data.personalInfo.contact.linkedin} className="text-blue-600">
-                linkedin.com/in/markobradley
+                https://truthreveller.github.io/
               </a>
               {data.personalInfo.contact.website && (
                 <a href={data.personalInfo.contact.website} className="text-blue-600 block">

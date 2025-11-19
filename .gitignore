@@ -1,0 +1,26 @@
+# Claude Code configuration
+.claude/
+
+# Source markdown (kept in resume-site/src/data/)
+resume.md
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

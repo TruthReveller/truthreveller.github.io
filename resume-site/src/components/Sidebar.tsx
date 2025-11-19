@@ -51,7 +51,7 @@ export default function Sidebar({ personalInfo, skills, languages, hobbies }: Si
               rel="noopener"
               className="text-blue-600 hover:underline print:text-black"
             >
-              linkedin.com/in/markobradley
+              linkedin.com/in/paulbradleyhiloinc
             </a>
           </li>
           {personalInfo.contact.website && (
@@ -62,7 +62,7 @@ export default function Sidebar({ personalInfo, skills, languages, hobbies }: Si
                 rel="noopener"
                 className="text-blue-600 hover:underline print:text-black"
               >
-                mb-hilo.github.io
+                truthreveller.github.io
               </a>
             </li>
           )}
@@ -145,18 +145,6 @@ export default function Sidebar({ personalInfo, skills, languages, hobbies }: Si
                 View on Kaggle →
               </a>
             </div>
-          </div>
-          <div>
-            <h3 className="text-sm font-medium text-gray-800 mb-1">Shunido</h3>
-            <p className="text-xs text-gray-600 mb-2">Virtual fashion exploration platform</p>
-            <a 
-              href="https://www.kaggle.com/competitions/banana/writeups/shunido-virtual-fashion-exploration"
-              target="_blank"
-              rel="noopener"
-              className="text-blue-600 hover:underline text-xs print:text-black"
-            >
-              View on Kaggle →
-            </a>
           </div>
         </div>
       </section>
