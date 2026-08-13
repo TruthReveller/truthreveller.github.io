@@ -113,9 +113,71 @@
   "hobbies": ["Web development", "travel", "exercise", "volleyball", "technology", "investing", "kiteboarding", "learning new languages", "playing guitar"],
   "experience": [
     {
+      "title": "Founder / Lead Software Developer",
+      "company": "Reveller — Hilo IT Inc",
+      "period": "April 2026 – Present",
+      "location": "Toronto, Ontario, Canada",
+      "achievements": [
+        "Designed and shipped Reveller on Google Play, a Flutter screen-time tracking and app-blocking app with group accountability challenges, leaderboards, and CBT-based coaching content, co-founded as a two-person product studio",
+        "Implemented native Android screen-time tracking and app blocking in Kotlin via UsageStatsManager event streams, a narrowly-scoped AccessibilityService, and Android 14 special-use foreground services, re-armed on boot and surfaced through a native home-screen widget",
+        "Built a real-time OpenGL ES / GLSL chroma-key video renderer on ExoPlayer compositing green-screen “mindful companion” overlays over any app, verified by a cross-language Kotlin↔Dart shader parity test suite",
+        "Architected the self-hosted backend with Dart (Shelf) and PostgreSQL — JWT auth with rotation (Google, Apple, anonymous), groups with five scored game-mode seasons, Centrifugo WebSocket realtime, self-hosted push, and Claude API-generated coaching content — deployed with Docker on Coolify",
+        "Integrated subscription monetization with RevenueCat and Google Play Billing, including server-side webhook entitlement reconciliation and a remote-configurable paywall catalog that ships copy and pricing changes without an app release",
+        "Built the iOS Screen Time parity layer in Swift (FamilyControls, DeviceActivity, ManagedSettings, shield extensions), pending Apple's Family Controls distribution entitlement",
+        "Managed the Google Play release cycle end to end: store listing and Data Safety declarations, sensitive-permission justifications (usage access, accessibility, overlays), and remediation of a Play accessibility-policy rejection through to approval"
+      ],
+      "technologies": "Flutter, Dart, Kotlin, Swift, Riverpod, PostgreSQL, Redis, Centrifugo, RevenueCat, Google Play Billing, Anthropic Claude API, AndroidX Media3 / ExoPlayer, OpenGL ES, WorkManager, Docker, Coolify, GitHub Actions"
+    },
+    {
+      "title": "Founder / Lead Software Developer",
+      "company": "Poekito — Hilo IT Inc",
+      "period": "May 2026 – July 2026",
+      "location": "Toronto, Ontario, Canada",
+      "achievements": [
+        "Spun out and shipped Poekito on Google Play, an Android app of animated screen pets and mindful overlay timers, extracting Reveller's overlay engine into a standalone Flutter/Kotlin app",
+        "Implemented the native overlay service in Kotlin: SYSTEM_ALERT_WINDOW application overlays, an Android 14-compliant special-use foreground service, and foreground-app detection via UsageStatsManager, using the policy-compliant package-visibility queries approach instead of QUERY_ALL_PACKAGES",
+        "Built 42 chroma-keyed “mindful video” overlay styles rendered with ExoPlayer and OpenGL ES, streamed on demand from a CDN-backed asset server to keep the app bundle lean",
+        "Integrated a one-time Google Play Billing unlock with swappable RevenueCat / Play Billing backends, anonymous JWT entitlements against a shared multi-tenant API, promo codes, and referral deep links via Android App Links and the Play Install Referrer API",
+        "Built a localized Next.js marketing site in 5 languages with GA4 (consent-gated) and Sentry, deployed with Docker on Coolify",
+        "Wrote Dart and Kotlin JVM test suites, including cross-language contract tests asserting Kotlin↔Dart overlay-style parity"
+      ],
+      "technologies": "Flutter, Dart, Kotlin, Riverpod, Hive, AndroidX Media3 / ExoPlayer, OpenGL ES, WorkManager, RevenueCat, Google Play Billing, Dio, Next.js, React, TypeScript, Tailwind CSS, Sentry, GA4, Docker, Coolify"
+    },
+    {
+      "title": "Founder / Lead Software Developer",
+      "company": "Chatelope — Hilo IT Inc",
+      "period": "January 2026 – June 2026",
+      "location": "Toronto, Ontario, Canada",
+      "achievements": [
+        "Built Chatelope, an AI conversation manager that imports, backs up, searches, and analyzes chat history from ChatGPT, Claude, and Gemini — a Next.js 16 / React 19 web app live at chatelope.com plus a Flutter client targeting Android, iOS, Windows, and macOS from one codebase",
+        "Architected a tri-modal deployment (server / local-first client / hybrid) behind one data-access interface: Drizzle ORM + SQLite server-side, Dexie/IndexedDB browser-local, and Drift on mobile",
+        "Implemented encrypted-at-rest storage on mobile by compiling SQLite3MultipleCiphers into the Drift database, with key management in platform secure storage and plaintext↔encrypted migration support",
+        "Built a Google Drive-backed cross-device sync and backup engine (manifest, device records, snapshots, change log) implemented in parallel on web and Flutter, authenticated via NextAuth v5 Google OAuth with the Drive scope",
+        "Created a multi-provider AI layer spanning OpenAI, Anthropic, Google, DeepSeek, Qwen, and self-hosted Ollama / LM Studio, plus TTS/STT with ElevenLabs, Kokoro, and fal.ai, with first-party token-cost analytics dashboards",
+        "Implemented import parsers for ChatGPT/Claude/Gemini exports and a server-side Puppeteer share-link extractor; configured a GitHub Actions cron that syncs the model catalog from OpenRouter daily and commits changes automatically"
+      ],
+      "technologies": "Next.js 16, React 19, TypeScript, Tailwind CSS, Drizzle ORM, SQLite, NextAuth, Dexie, Puppeteer, Flutter, Dart, Riverpod, Drift, SQLite3MultipleCiphers, Google Drive API, GitHub Actions, Docker, Coolify"
+    },
+    {
+      "title": "Lead Software Developer",
+      "company": "MicroPeace.org",
+      "period": "February 2026 – May 2026",
+      "location": "Barcelona, Spain",
+      "achievements": [
+        "Built a greenfield full-stack nonprofit web and mobile platform from the ground up utilizing Next.js, TypeScript, Node.js, Payload CMS, PostgreSQL, and Tailwind CSS",
+        "Architected Payload CMS as a headless content layer, empowering non-technical staff to manage site content, media, and translations independently",
+        "Implemented OAuth authentication flows with Google and Apple as identity providers for secure user account creation and login",
+        "Built multilingual (i18n) support across the platform to serve Spanish, Catalan and English audiences, with content localization managed through Payload CMS",
+        "Designed and implemented PostgreSQL schema and Node.js API layer to handle user data, content relationships, and reporting",
+        "Integrated multiple third-party APIs and Google Analytics for engagement tracking and reporting dashboards",
+        "Configured self-hosted VPS deployment with NGINX reverse proxy, PM2 process management, and CI/CD pipelines for the Next.js frontend and Node.js API"
+      ],
+      "technologies": "Next.js, React, TypeScript, Node.js, Payload CMS, PostgreSQL, Tailwind CSS, OAuth (Google, Apple), Google Analytics, NGINX, PM2, VPS"
+    },
+    {
       "title": "Lead Software Developer",
       "company": "Scotiabank",
-      "period": "November 2024 – Current",
+      "period": "November 2024 – November 2025",
       "location": "Toronto, Ontario, Canada",
       "achievements": [
         "Developed new Next.js micro application for Scotiabank loyalty rewards program that is shared between both banks Scotiabank and Tangerine",
